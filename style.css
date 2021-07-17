@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive; 
+}
+
+.header{
+    height: 100vh;
+    background-image: url(img/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo{
+    margin-top: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.header-text{
+    max-width: 350px;
+    margin-top: 140px;
+}
+
+h1{
+    font-size:  30px;
+}
+
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 15px 0;
+}
+
+.common-btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border:2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(71, 64, 64);
+}
+
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.line1{
+    width: 15px;
+    height: 15px;
+    background:#f67c92 ;
+    display: inline-block;
+}
+.line2{
+    width: 80px;
+    height: 1px;
+    background:#f67c92 ;
+    display: inline-block;
+}
+.line3{
+    width: 60px;
+    height: 1px;
+    background:#f67c92 ;
+    display: inline-block;
+}
+
+.line{
+   line-height: 8px;
+}
+
+.common-btn:hover{
+   background:#f67c92;
+   color: rgb(0, 0, 0);
+    transition: 0.6s;
+}
+
+.side-nav{
+    position: fixed; 
+    width: 250px;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    z-index: 2; 
+    display: flex;
+    
+}
+
+nav ul li{
+    padding: 13px;
+    list-style: none;
+    padding-left: 0px;
+    margin-left: -170px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 12px;
+    color: #f67c92;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    /* background-color: whitesmoke; */
+    border-radius: 10px;
+    background-size: auto;
+}
+
+/* aboutttt */
+.about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+
+.about-leftcol{
+    flex-basis: 50%;
+}
+
+.about-leftcol img{
+    width: 100%;
+}
+
+.about-rightcol{
+    flex-basis: 50;
+   
+}
+
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+/* featuresss */
+.features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.feature-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.feature-col img{
+    width: 100px;
+}
+
+.feature-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.feature-btn{
+    margin: 70px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* corsessssss */
+
+.course{
+    padding:100px 0;
+}
+
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.course-rightcol{
+    flex-basis: 50%;
+}
+
+.course-rightcol img{
+    width: 100%;
+}
+
+.course-leftcol{
+    flex-basis: 50%;
+}
+
+.course-text button{
+    margin: 30px 0;
+    margin: 30px 0;
+}
+
+/* contact */
+.contact-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-leftcol,.contact-rightcol{
+    flex-basis: 50%;
+}
+
+.contact-rightcol img{
+    width: 100%;
+}
+
+form{
+    max-width: 350px;
+    margin: 30px 0;    
+}
+
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #f8cad3;
+}
+.btn-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-box button{
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+
+/* fooototototo */
+.footer{
+    padding: 50px 0 30px;
+    /* cursor: pointer; */
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #f8cad3;
+}
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-leftcol{
+    flex-basis: 50%;
+    margin-top: 60px;
+    cursor: pointer;
+}
+   
+.footer-rightcol{
+    flex-basis:35%;
+    cursor: pointer;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-title h4{
+    color: #f67c92;
+    margin-bottom: 20px;
+}
+
+.link-title small{
+    font-size: 13px;
+    color: rgb(82, 87, 92);
+}
+
+.footer-info{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#lol{
+    width: 100px ;
+}
+
+.footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.copyright-text,.footer-logo{
+    flex-basis: 40%;
+}
+
+
+
+    
+
+
